@@ -16,7 +16,7 @@ properties([
                     sandbox: false,
                     script:'''def sout = new StringBuffer(), serr = new StringBuffer()
 
-def proc ='/home/pankaj/Downloads/Equifax/script-2.sh'.execute()
+def proc ='./script-2.sh'.execute()
 proc.consumeProcessOutput(sout, serr)
 proc.waitForOrKill(10000)
 
