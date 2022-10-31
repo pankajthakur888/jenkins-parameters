@@ -37,8 +37,8 @@ pipeline {
                     echo "Selected choice is Version           : ${params.NAMESPACE}"
                     sh "kubectl get namespace"
                     sh "kubectl delete namespaces ${params.NAMESPACE}"
-                    sh "kubectl create namespace ${params.NAMESPACE}:v2"
-                    sh "kubectl run nginx --image=nginx --namespace ${params.NAMESPACE}:v2"
+                    sh "kubectl create namespace ${params.NAMESPACE}-${BUILD_NUMBER}"
+                    sh "kubectl run nginx --image=nginx --namespace ${params.NAMESPACE}-${BUILD_NUMBER}"
                 }
             }
         }
