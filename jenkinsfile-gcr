@@ -31,6 +31,8 @@ pipeline {
         stage('Clone Repositories') {
             steps {
                 script {
+                    sh "chmod 777 script-2.sh"
+                    sh "ls -l"
                     echo "Selected choice is Version           : ${params.GCR_IMG}"
                 }
             }
