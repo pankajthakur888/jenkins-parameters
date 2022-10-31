@@ -35,6 +35,10 @@ pipeline {
                     sh "chmod 777 script-3.sh"
                     sh "ls -l"
                     echo "Selected choice is Version           : ${params.NAMESPACE}"
+                    sh "kubectl get namespace"
+                    sh "kubectl delete namespaces ${params.NAMESPACE}"
+                    sh "kubectl create namespace ${params.NAMESPACE}:v2"
+                    sh "kubectl run nginx --image=nginx --namespace ${params.NAMESPACE}:v2"
                 }
             }
         }
