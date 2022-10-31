@@ -1,0 +1,40 @@
+properties([
+    parameters([
+        [$class: 'ChoiceParameter',
+            choiceType: 'PT_SINGLE_SELECT',
+            description: 'Select GCR BUSYBOX IMAGE Version',
+            name: 'GCR_IMG',
+            script: [
+                $class: 'GroovyScript',
+                fallbackScript: [
+                    classpath: [],
+                    sandbox: false,
+                    script: '''return ['Script Error']'''
+                ],
+                script: [
+                    classpath: [],
+                    sandbox: false,
+                    script:'''def sout = new StringBuffer(), serr = new StringBuffer()
+
+def proc ='/home/pankaj/Downloads/Equifax/script-2.sh'.execute()
+proc.consumeProcessOutput(sout, serr)
+proc.waitForOrKill(10000)
+
+return sout.tokenize()'''
+                ]
+            ]
+        ]
+    ])
+])
+pipeline {
+    agent any
+    stages {
+        stage('Clone Repositories') {
+            steps {
+                script {
+                    echo "Selected choice is Version           : ${params.GCR_IMG}"
+                }
+            }
+        }
+    }
+}
