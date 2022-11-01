@@ -1,0 +1,73 @@
+properties([
+    parameters([
+        [$class: 'ChoiceParameter',
+            choiceType: 'PT_SINGLE_SELECT',
+            description: 'Select One K8 NAMESPACE',
+            name: 'namespace',
+            script: [
+                $class: 'GroovyScript',
+                fallbackScript: [
+                    classpath: [],
+                    sandbox: false,
+                    script: '''return ['Script Error']'''
+                ],
+                script: [
+                    classpath: [],
+                    sandbox: false,
+                    script:'''def proc =['/bin/bash', '-c', "kubectl get ns | sed 's/kube-system.*//g' | sed 's/kube-node-lease.*//g' | sed 's/kube-public.*//g' | sed 's/kubernetes-dashboard.*//g' | cut -d ' ' -f1 | sed 1d "].execute()
+proc.waitFor()
+
+def output = proc.in.text
+def exitcode= proc.exitValue()
+def error = proc.err.text
+
+if (error) {
+    println "Std Err: ${error}"
+    println "Process exit code: ${exitcode}"
+    return exitcode
+}
+return output.tokenize()'''
+                ]
+            ]
+        ],
+        [$class: 'CascadeChoiceParameter',
+            choiceType: 'PT_CHECKBOX',
+            description: 'Select K8 Namespace Deployments',
+            name: 'deployment',
+            referencedParameters: 'namespace', 
+            script: [
+                $class: 'GroovyScript',
+                fallbackScript: [
+                    classpath: [],
+                    sandbox: false,
+                    script: '''return ['Script Error']'''
+                ],
+                script: [
+                    classpath: [],
+                    sandbox: true,
+                    script:'''def sout=new StringBuffer(), serr = new StringBuffer()
+
+def proc =['/bin/bash', '-c', "kubectl get deployment -n ${namespace} | cut -d ' ' -f1 | sed 1d"].execute()
+proc.waitFor()
+proc.consumeProcessOutput(sout, serr)
+//proc.waitForOrKill(10000)
+
+return sout.tokenize()'''
+                ]
+            ]
+        ]
+    ])
+])
+pipeline {
+    agent any
+    stages {
+        stage('Clone Repositories') {
+            steps {
+                script {
+                    echo "Selected Namespace is Version           : ${params.namespace}"
+                    echo "Selected Deployment is Version           : ${params.deployment}"
+                }
+            }
+        }
+    }
+}
