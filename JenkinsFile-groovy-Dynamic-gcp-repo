@@ -1,0 +1,73 @@
+properties([
+    parameters([
+        [$class: 'ChoiceParameter',
+            choiceType: 'PT_SINGLE_SELECT',
+            description: 'Select One GCR Images ',
+            name: 'GCR_IMAGE_LIST',
+            script: [
+                $class: 'GroovyScript',
+                fallbackScript: [
+                    classpath: [],
+                    sandbox: false,
+                    script: '''return ['Script Error']'''
+                ],
+                script: [
+                    classpath: [],
+                    sandbox: false,
+                    script:'''def proc =['/bin/bash', '-c', "gcloud container images list --repository=gcr.io/cadvisor | sed 1d "].execute()
+proc.waitFor()
+
+def output = proc.in.text
+def exitcode= proc.exitValue()
+def error = proc.err.text
+
+if (error) {
+    println "Std Err: ${error}"
+    println "Process exit code: ${exitcode}"
+    return exitcode
+}
+return output.tokenize()'''
+                ]
+            ]
+        ],
+        [$class: 'CascadeChoiceParameter',
+            choiceType: 'PT_SINGLE_SELECT',
+            description: 'Select One GCR Image Tags',
+            name: 'GCR_IMAGE_TAG',
+            referencedParameters: 'GCR_IMAGE_LIST', 
+            script: [
+                $class: 'GroovyScript',
+                fallbackScript: [
+                    classpath: [],
+                    sandbox: false,
+                    script: '''return ['Script Error']'''
+                ],
+                script: [
+                    classpath: [],
+                    sandbox: true,
+                    script:'''def sout=new StringBuffer(), serr = new StringBuffer()
+
+def proc =['/bin/bash', '-c', "gcloud container images list-tags ${GCR_IMAGE_LIST} | cut -d ' ' -f3 | sed 1d"].execute()
+proc.waitFor()
+proc.consumeProcessOutput(sout, serr)
+//proc.waitForOrKill(10000)
+
+return sout.tokenize()'''
+                ]
+            ]
+        ]
+    ])
+])
+pipeline {
+    agent any
+    stages {
+        stage('Clone Repositories') {
+            steps {
+                script {
+                    echo "Selected Namespace is Version           : ${params.GCR_IMAGE_LIST}"
+                    echo "Selected Deployment is Version           : ${params.GCR_IMAGE_TAG}"
+                }
+            }
+        }
+    }
+}
