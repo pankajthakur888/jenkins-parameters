@@ -1,0 +1,1029 @@
+[
+{
+"digest": "sha256:5716ed78d24baa1972eed7a5531b110bec402cf5d1e4967eded1dc827e51fc04",
+"tags": [],
+"timestamp": {
+"datetime": "2022-08-03 05:46:11+05:30",
+"day": 3,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 46,
+"month": 8,
+"second": 11,
+"year": 2022
+}
+},
+{
+"digest": "sha256:bf77125c6afe20af32c242073d7517df61eaa8f9f7775d701fe3b798b36eccb9",
+"tags": [],
+"timestamp": {
+"datetime": "2022-08-03 05:45:32+05:30",
+"day": 3,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 45,
+"month": 8,
+"second": 32,
+"year": 2022
+}
+},
+{
+"digest": "sha256:2dddb9bf7f6d455e80fb728f31bd84ce8fa694298a6f51dfca4a65cc719d4607",
+"tags": [],
+"timestamp": {
+"datetime": "2022-08-03 05:42:31+05:30",
+"day": 3,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 42,
+"month": 8,
+"second": 31,
+"year": 2022
+}
+},
+{
+"digest": "sha256:2f2be21e12f963decf884f8b4cb6a142e219eb96038bbd17540d445818a2b177",
+"tags": [],
+"timestamp": {
+"datetime": "2022-08-03 05:21:50+05:30",
+"day": 3,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 21,
+"month": 8,
+"second": 50,
+"year": 2022
+}
+},
+{
+"digest": "sha256:68be5cc5a13f8c4844a19cd50a98ad0db3a82b50b1f04a5a9f65e404166c5e4f",
+"tags": [],
+"timestamp": {
+"datetime": "2022-08-03 05:20:25+05:30",
+"day": 3,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 20,
+"month": 8,
+"second": 25,
+"year": 2022
+}
+},
+{
+"digest": "sha256:2d0a4e07f38a369f3c476ba7558f8b3b626d68d20615856a0bc322d3e3e3b8b2",
+"tags": [],
+"timestamp": {
+"datetime": "2022-08-03 05:16:03+05:30",
+"day": 3,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 16,
+"month": 8,
+"second": 3,
+"year": 2022
+}
+},
+{
+"digest": "sha256:bd838b1db827157d6cd07e1d4d0a15bb9e634930e202fdb2e6dd92d90c66768b",
+"tags": [],
+"timestamp": {
+"datetime": "2022-07-28 03:42:18+05:30",
+"day": 28,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 42,
+"month": 7,
+"second": 18,
+"year": 2022
+}
+},
+{
+"digest": "sha256:e9d312ab8365cd54119d7dc508787de38ac4571589d4f9167e3640664da95987",
+"tags": [],
+"timestamp": {
+"datetime": "2022-07-28 03:41:01+05:30",
+"day": 28,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 41,
+"month": 7,
+"second": 1,
+"year": 2022
+}
+},
+{
+"digest": "sha256:b090fb3a028f8c5d6ce4464c057b2ad8fae62b002d8f9c10dd46723f46af7679",
+"tags": [],
+"timestamp": {
+"datetime": "2022-07-28 03:37:08+05:30",
+"day": 28,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 37,
+"month": 7,
+"second": 8,
+"year": 2022
+}
+},
+{
+"digest": "sha256:889ac39db09b63ec51427625d4c4bc90a972824aff9d5a1c5d1a99cd441f4e5b",
+"tags": [],
+"timestamp": {
+"datetime": "2022-07-28 03:33:09+05:30",
+"day": 28,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 33,
+"month": 7,
+"second": 9,
+"year": 2022
+}
+},
+{
+"digest": "sha256:08f2a726b84512f09c1079438fb1b1d8844e872038fd289a3c9a90f5553f57ca",
+"tags": [],
+"timestamp": {
+"datetime": "2022-07-28 03:29:09+05:30",
+"day": 28,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 29,
+"month": 7,
+"second": 9,
+"year": 2022
+}
+},
+{
+"digest": "sha256:3b712bca0d42fa33352e81e4023dbbc15a7d0f1e6fadecf990db46e8d6b3fee4",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 06:07:01+05:30",
+"day": 4,
+"fold": 0,
+"hour": 6,
+"microsecond": 0,
+"minute": 7,
+"month": 5,
+"second": 1,
+"year": 2022
+}
+},
+{
+"digest": "sha256:8938726fe00fd7a3889f7c4fb50a54b728f1d02fb5f6cbdbea604824ad11ff3f",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 06:04:39+05:30",
+"day": 4,
+"fold": 0,
+"hour": 6,
+"microsecond": 0,
+"minute": 4,
+"month": 5,
+"second": 39,
+"year": 2022
+}
+},
+{
+"digest": "sha256:0172808e2593ab9e3d797eb4ada9e78a6ea17e12472b0a06570ccd41bbd3f8fd",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 05:57:46+05:30",
+"day": 4,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 57,
+"month": 5,
+"second": 46,
+"year": 2022
+}
+},
+{
+"digest": "sha256:d17173acd1cc6d4d8093940af3c489d658095f49f545b7ea5c2df5c705bd4416",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 05:43:02+05:30",
+"day": 4,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 43,
+"month": 5,
+"second": 2,
+"year": 2022
+}
+},
+{
+"digest": "sha256:3f52cabe76a0a101a05f7c9b607ab9b2cd601298ffb323ffdc211f44ccf89ea6",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 05:36:01+05:30",
+"day": 4,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 36,
+"month": 5,
+"second": 1,
+"year": 2022
+}
+},
+{
+"digest": "sha256:f080a52ac42e1e897e503babbbefcc05c94a2310528762882518851db56a60a8",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 03:19:09+05:30",
+"day": 4,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 19,
+"month": 5,
+"second": 9,
+"year": 2022
+}
+},
+{
+"digest": "sha256:6dd20b4c7f41188695758e61739911209ed63ee8caced2b1ec1d705918ae8497",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 03:16:47+05:30",
+"day": 4,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 16,
+"month": 5,
+"second": 47,
+"year": 2022
+}
+},
+{
+"digest": "sha256:75349ee533b86a68d2ca28edbf301a4569af7455fa575514c19a92da8ae68fd9",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 03:08:52+05:30",
+"day": 4,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 8,
+"month": 5,
+"second": 52,
+"year": 2022
+}
+},
+{
+"digest": "sha256:a5a10da59f4c424729860f6d35c583616c26e31fa689e3254076f9a0a0b360ef",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 03:06:44+05:30",
+"day": 4,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 6,
+"month": 5,
+"second": 44,
+"year": 2022
+}
+},
+{
+"digest": "sha256:f581f99f48b442ce67eafadd2ddc4948d803902d54b601ff2c7e5073ab1b7ef3",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 02:53:47+05:30",
+"day": 4,
+"fold": 0,
+"hour": 2,
+"microsecond": 0,
+"minute": 53,
+"month": 5,
+"second": 47,
+"year": 2022
+}
+},
+{
+"digest": "sha256:9c9bb0a0586aee5815c429cc50ea5fcde9fd2786aaa3595251c841b79e963ddf",
+"tags": [],
+"timestamp": {
+"datetime": "2022-05-04 02:51:30+05:30",
+"day": 4,
+"fold": 0,
+"hour": 2,
+"microsecond": 0,
+"minute": 51,
+"month": 5,
+"second": 30,
+"year": 2022
+}
+},
+{
+"digest": "sha256:81812f757ca1748a51b4683d1d2ae9c5fc964f04429fcebf4178dd6bd26bb751",
+"tags": [],
+"timestamp": {
+"datetime": "2022-03-22 14:26:31+05:30",
+"day": 22,
+"fold": 0,
+"hour": 14,
+"microsecond": 0,
+"minute": 26,
+"month": 3,
+"second": 31,
+"year": 2022
+}
+},
+{
+"digest": "sha256:afeb7e5f31ca443b6ea97b7650240de942b8cf9a037bc72a9caab41c88d36f66",
+"tags": [],
+"timestamp": {
+"datetime": "2022-03-22 14:24:04+05:30",
+"day": 22,
+"fold": 0,
+"hour": 14,
+"microsecond": 0,
+"minute": 24,
+"month": 3,
+"second": 4,
+"year": 2022
+}
+},
+{
+"digest": "sha256:5bd08a5abaee5258ee60e905cc06db7854c89289f11d41481446698d03ad74ff",
+"tags": [],
+"timestamp": {
+"datetime": "2022-03-22 13:50:57+05:30",
+"day": 22,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 50,
+"month": 3,
+"second": 57,
+"year": 2022
+}
+},
+{
+"digest": "sha256:78f769a9e9136774ff410325229a3c2b856e210489900f3009bc4adc3b8a3960",
+"tags": [],
+"timestamp": {
+"datetime": "2022-03-22 13:48:19+05:30",
+"day": 22,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 48,
+"month": 3,
+"second": 19,
+"year": 2022
+}
+},
+{
+"digest": "sha256:aed793bd1adfc097f6569e2f56e35b4d6b3accc2e8859185b120178f1b9cc896",
+"tags": [],
+"timestamp": {
+"datetime": "2022-03-22 13:35:43+05:30",
+"day": 22,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 35,
+"month": 3,
+"second": 43,
+"year": 2022
+}
+},
+{
+"digest": "sha256:664f40a5a83524416f39cac641e10c842cb2ca704afadc64597edc6834a26d19",
+"tags": [],
+"timestamp": {
+"datetime": "2022-03-22 13:32:45+05:30",
+"day": 22,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 32,
+"month": 3,
+"second": 45,
+"year": 2022
+}
+},
+{
+"digest": "sha256:ef1e224267584fc9cb8d189867f178598443c122d9068686f9c3898c735b711f",
+"tags": [
+"v0.44.0"
+],
+"timestamp": {
+"datetime": "2022-03-01 05:29:32+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 29,
+"month": 3,
+"second": 32,
+"year": 2022
+}
+},
+{
+"digest": "sha256:a65187d038e0c063a26bb7b89828d843b64936622e90bf66333eb78f22604479",
+"tags": [
+"v0.39.3"
+],
+"timestamp": {
+"datetime": "2022-01-06 03:37:11+05:30",
+"day": 6,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 37,
+"month": 1,
+"second": 11,
+"year": 2022
+}
+},
+{
+"digest": "sha256:89e6137f068ded2e9a3a012ce71260b9afc57a19305842aa1074239841a539a7",
+"tags": [
+"v0.43.0"
+],
+"timestamp": {
+"datetime": "2021-11-10 03:45:03+05:30",
+"day": 10,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 45,
+"month": 11,
+"second": 3,
+"year": 2021
+}
+},
+{
+"digest": "sha256:f240a164f49ec49c5e633c1871c24e641e5dfdd8d2ea54aeb2f2b06d7e7cc980",
+"tags": [
+"v0.42.0"
+],
+"timestamp": {
+"datetime": "2021-10-12 04:49:02+05:30",
+"day": 12,
+"fold": 0,
+"hour": 4,
+"microsecond": 0,
+"minute": 49,
+"month": 10,
+"second": 2,
+"year": 2021
+}
+},
+{
+"digest": "sha256:c4a53e233abff2a995d6978462c92801d045c70298d21be3b2768d465f865a44",
+"tags": [
+"v0.41.0"
+],
+"timestamp": {
+"datetime": "2021-10-09 05:58:35+05:30",
+"day": 9,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 58,
+"month": 10,
+"second": 35,
+"year": 2021
+}
+},
+{
+"digest": "sha256:3d6f8177e7474825c0a0b4147f822dc9ca66c51bd23c32946433ba5166cec392",
+"tags": [
+"v0.41.0-containerd-fix-rc.2"
+],
+"timestamp": {
+"datetime": "2021-09-30 04:13:42+05:30",
+"day": 30,
+"fold": 0,
+"hour": 4,
+"microsecond": 0,
+"minute": 13,
+"month": 9,
+"second": 42,
+"year": 2021
+}
+},
+{
+"digest": "sha256:71ca3f1e477341d107cb6acbbded9a1a13c4b8440970599b4d44d8f9f0b17b45",
+"tags": [
+"v0.41.0-containerd-fix-rc.1"
+],
+"timestamp": {
+"datetime": "2021-09-25 04:00:37+05:30",
+"day": 25,
+"fold": 0,
+"hour": 4,
+"microsecond": 0,
+"minute": 0,
+"month": 9,
+"second": 37,
+"year": 2021
+}
+},
+{
+"digest": "sha256:135327c978de7264f7172bb047b1d8b5b917ce0a5619b8e05dfdf154d59397cb",
+"tags": [
+"v0.40.0"
+],
+"timestamp": {
+"datetime": "2021-07-08 23:31:01+05:30",
+"day": 8,
+"fold": 0,
+"hour": 23,
+"microsecond": 0,
+"minute": 31,
+"month": 7,
+"second": 1,
+"year": 2021
+}
+},
+{
+"digest": "sha256:77d1df2341c420adde2282ec06b281d704d3f73e4fe9d56c5120c05353758d03",
+"tags": [
+"v0.39.2"
+],
+"timestamp": {
+"datetime": "2021-06-02 05:38:50+05:30",
+"day": 2,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 38,
+"month": 6,
+"second": 50,
+"year": 2021
+}
+},
+{
+"digest": "sha256:10638ceca79c01f4045f4a645242e763fe62eeb71d859ff93b09b0854a0d2220",
+"tags": [
+"v0.39.1"
+],
+"timestamp": {
+"datetime": "2021-05-20 23:02:40+05:30",
+"day": 20,
+"fold": 0,
+"hour": 23,
+"microsecond": 0,
+"minute": 2,
+"month": 5,
+"second": 40,
+"year": 2021
+}
+},
+{
+"digest": "sha256:45a2a291b772c5a307260afc03d9be551e362b460ebde1a06a290f0736919baa",
+"tags": [
+"v0.39.0"
+],
+"timestamp": {
+"datetime": "2021-03-09 06:37:07+05:30",
+"day": 9,
+"fold": 0,
+"hour": 6,
+"microsecond": 0,
+"minute": 37,
+"month": 3,
+"second": 7,
+"year": 2021
+}
+},
+{
+"digest": "sha256:071f30c4fed3c733336c5fe5b260c12a0352be7b943625a067902b2b7551fab6",
+"tags": [
+"v0.37.5"
+],
+"timestamp": {
+"datetime": "2021-02-18 13:36:46+05:30",
+"day": 18,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 36,
+"month": 2,
+"second": 46,
+"year": 2021
+}
+},
+{
+"digest": "sha256:3329aedd84d6222e655a7002d06b58db0f173e6a6b4faa65dda6381ef9a8ce2b",
+"tags": [
+"v0.38.8"
+],
+"timestamp": {
+"datetime": "2021-02-18 13:29:04+05:30",
+"day": 18,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 29,
+"month": 2,
+"second": 4,
+"year": 2021
+}
+},
+{
+"digest": "sha256:d6e04fa2add78636ceb2d5f7bde3e414ae083ea578b091f40132bfc6a28938d6",
+"tags": [
+"v0.37.4"
+],
+"timestamp": {
+"datetime": "2021-01-13 14:41:31+05:30",
+"day": 13,
+"fold": 0,
+"hour": 14,
+"microsecond": 0,
+"minute": 41,
+"month": 1,
+"second": 31,
+"year": 2021
+}
+},
+{
+"digest": "sha256:998d4d55de1fca5e47074d5c15a2c31b8585637afb8fe8972ae38b05aca402b2",
+"tags": [
+"v0.38.7"
+],
+"timestamp": {
+"datetime": "2021-01-13 14:30:58+05:30",
+"day": 13,
+"fold": 0,
+"hour": 14,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 58,
+"year": 2021
+}
+},
+{
+"digest": "sha256:620a84fe6fc2d2e6368c2a6bd61793fdbc33a8bed073fdbed729e7ec92f41cdd",
+"tags": [
+"v0.37.3"
+],
+"timestamp": {
+"datetime": "2020-12-10 03:57:47+05:30",
+"day": 10,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 57,
+"month": 12,
+"second": 47,
+"year": 2020
+}
+},
+{
+"digest": "sha256:ddadf3e2fd880deb4e0f3606d34a0d9da1165e3801116075d98a1901635dc9e8",
+"tags": [
+"latest",
+"v0.38.6"
+],
+"timestamp": {
+"datetime": "2020-12-10 03:51:12+05:30",
+"day": 10,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 51,
+"month": 12,
+"second": 12,
+"year": 2020
+}
+},
+{
+"digest": "sha256:a0e3f976a693321e48ea32b4dc1d75658ce2bdb93bdb9148de6b417cb0514bcd",
+"tags": [
+"v0.38.5"
+],
+"timestamp": {
+"datetime": "2020-11-24 13:05:27+05:30",
+"day": 24,
+"fold": 0,
+"hour": 13,
+"microsecond": 0,
+"minute": 5,
+"month": 11,
+"second": 27,
+"year": 2020
+}
+},
+{
+"digest": "sha256:5bda4c8f089d442a07f52c27d609440e557fd2bd65a1d22e19064c7124ab03f0",
+"tags": [
+"v0.37.2"
+],
+"timestamp": {
+"datetime": "2020-11-24 12:58:26+05:30",
+"day": 24,
+"fold": 0,
+"hour": 12,
+"microsecond": 0,
+"minute": 58,
+"month": 11,
+"second": 26,
+"year": 2020
+}
+},
+{
+"digest": "sha256:ce071f0ff97ec59d41179fea88d5a0f6a5c6b88b83c70874cf710d310a96ced8",
+"tags": [
+"v0.37.1"
+],
+"timestamp": {
+"datetime": "2020-11-19 01:00:10+05:30",
+"day": 19,
+"fold": 0,
+"hour": 1,
+"microsecond": 0,
+"minute": 0,
+"month": 11,
+"second": 10,
+"year": 2020
+}
+},
+{
+"digest": "sha256:bba886d5a8f7485a09f2f72b0b0e76679062678f7b1eba6d3c3e4d468b835b44",
+"tags": [
+"v0.38.4"
+],
+"timestamp": {
+"datetime": "2020-11-13 11:38:38+05:30",
+"day": 13,
+"fold": 0,
+"hour": 11,
+"microsecond": 0,
+"minute": 38,
+"month": 11,
+"second": 38,
+"year": 2020
+}
+},
+{
+"digest": "sha256:87245fbc59f1d42ddbf828811f35c46c836cd009cf1767f84fa06288d9653da2",
+"tags": [
+"v0.38.3"
+],
+"timestamp": {
+"datetime": "2020-11-13 03:12:34+05:30",
+"day": 13,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 12,
+"month": 11,
+"second": 34,
+"year": 2020
+}
+},
+{
+"digest": "sha256:231ea6f13078e57d7eefe6544c8df4e33d0866b1e3830fab1056e2375e25d790",
+"tags": [
+"v0.38.2"
+],
+"timestamp": {
+"datetime": "2020-11-12 01:24:45+05:30",
+"day": 12,
+"fold": 0,
+"hour": 1,
+"microsecond": 0,
+"minute": 24,
+"month": 11,
+"second": 45,
+"year": 2020
+}
+},
+{
+"digest": "sha256:540707a8bd461e73e8139623a51aaf05b0854790dbe5b0ec13abc7bdb26c9bb5",
+"tags": [
+"v0.38.1"
+],
+"timestamp": {
+"datetime": "2020-11-11 04:23:46+05:30",
+"day": 11,
+"fold": 0,
+"hour": 4,
+"microsecond": 0,
+"minute": 23,
+"month": 11,
+"second": 46,
+"year": 2020
+}
+},
+{
+"digest": "sha256:1c3617618af395d025fe9e36c3d3e702ca7a949cc669a422c3145035e54db99f",
+"tags": [
+"v0.38.0"
+],
+"timestamp": {
+"datetime": "2020-11-10 11:57:22+05:30",
+"day": 10,
+"fold": 0,
+"hour": 11,
+"microsecond": 0,
+"minute": 57,
+"month": 11,
+"second": 22,
+"year": 2020
+}
+},
+{
+"digest": "sha256:6f1225883baf590986737f103a1ec0f7a20906eac0cecdb26a041c1084290640",
+"tags": [
+"v0.35.1"
+],
+"timestamp": {
+"datetime": "2020-11-06 03:18:34+05:30",
+"day": 6,
+"fold": 0,
+"hour": 3,
+"microsecond": 0,
+"minute": 18,
+"month": 11,
+"second": 34,
+"year": 2020
+}
+},
+{
+"digest": "sha256:aa9694377d3be56d53b81b0aeecd5880c0832100923e3ed50a8229ef3e1704b1",
+"tags": [
+"v0.37.0"
+],
+"timestamp": {
+"datetime": "2020-07-08 07:24:56+05:30",
+"day": 8,
+"fold": 0,
+"hour": 7,
+"microsecond": 0,
+"minute": 24,
+"month": 7,
+"second": 56,
+"year": 2020
+}
+},
+{
+"digest": "sha256:c549e9b4b419b216b18e7593578d41c7ac5b085fd3dc57d9af55b794e934043d",
+"tags": [
+"v0.35.0"
+],
+"timestamp": {
+"datetime": "2020-06-20 05:36:43+05:30",
+"day": 20,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 36,
+"month": 6,
+"second": 43,
+"year": 2020
+}
+},
+{
+"digest": "sha256:5ee8e2734bb79a0cf8a1f87e10458527105273006b033e617f0ba848088c9cfc",
+"tags": [
+"v0.36.0"
+],
+"timestamp": {
+"datetime": "2020-06-20 05:29:55+05:30",
+"day": 20,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 29,
+"month": 6,
+"second": 55,
+"year": 2020
+}
+},
+{
+"digest": "sha256:0c0ff9d713d9651e6b6347ef5a3fd30a17ada26f88ce11c75235492ef59b2a66",
+"tags": [],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+},
+{
+"digest": "sha256:140802224de2af3441cf0a725fdf2406172ba07b4c96e2c48a68930a74634142",
+"tags": [
+"v0.44.1-test-porterdavid"
+],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+},
+{
+"digest": "sha256:27155b6d934b580f82f987e51cf57ee44a9dee35913e99ff75913abcd5c50692",
+"tags": [],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+},
+{
+"digest": "sha256:3f7f15189a05d152a00105ea39b8f8ef7128639cba8711fc992267642a98285e",
+"tags": [
+"v0.45.0-containerd-cri"
+],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+},
+{
+"digest": "sha256:60510d148a5257b35f25121b3f3e05f63908f74bfeff7a76c0494589ecfc4000",
+"tags": [
+"v0.44.1-test"
+],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+},
+{
+"digest": "sha256:9360d7421c5e9b646ea13e5ced3f8e6da80017b0144733a04b7401dd8c01a5cb",
+"tags": [
+"v0.45.0"
+],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+},
+{
+"digest": "sha256:c8d9f21a679eb08f3767cf4e17625232fc63caaaeba39e2e9037cae7fd66a058",
+"tags": [],
+"timestamp": {
+"datetime": "1970-01-01 05:30:00+05:30",
+"day": 1,
+"fold": 0,
+"hour": 5,
+"microsecond": 0,
+"minute": 30,
+"month": 1,
+"second": 0,
+"year": 1970
+}
+}
+]
